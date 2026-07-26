@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>
+智能温控系统
+</title>
+
+
+<link rel="stylesheet"
+href="/static/style.css">
+
+
+</head>
+
+
+<body>
+
+
+<h1>
+STM32智能环境温控系统
+</h1>
+
+
+<div class="box">
+
+<h2>
+当前温度
+</h2>
+
+<h1>
+{{data[1]}}℃
+</h1>
+
+
+</div>
+
+
+<div class="box">
+
+<h2>
+风扇速度
+</h2>
+
+<h1>
+{{data[3]}}%
+</h1>
+
+
+</div>
+
+
+<div class="box">
+
+<h2>
+阈值
+</h2>
+
+
+<h1>
+{{data[2]}}℃
+</h1>
+
+
+</div>
+
+
+<a href="/history">
+历史数据
+</a>
+
+
+<a href="/ai">
+AI分析
+</a>
+
+
+</body>
+
+</html>

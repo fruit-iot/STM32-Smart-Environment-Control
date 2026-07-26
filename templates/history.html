@@ -1,0 +1,34 @@
+<h1>
+历史温度
+</h1>
+
+
+<table>
+
+
+{% for item in data %}
+
+<tr>
+
+<td>
+{{item[5]}}
+</td>
+
+
+<td>
+{{item[1]}}℃
+</td>
+
+
+<td>
+{{item[3]}}%
+</td>
+
+
+</tr>
+
+
+{% endfor %}
+
+
+</table>
